@@ -1,0 +1,72 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/0/d/1uKsYuTWCrfFWK4Em3GaC8Hc5dc3vehA-mbJI_0Vl02M/export?format=tsv",
+    "dcterms:bibliographicCitation" : "IPBES. (2016). The assessment report of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services on pollinators, pollination and food production. Table 2.4.3 p88 Zenodo. https://doi.org/10.5281/zenodo.3402857",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "sourceTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonCommonName",
+        "titles" : "sourceTaxonCommonName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonCommonName",
+        "titles" : "targetTaxonCommonName",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "localityName",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "referenceDoi",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceId",
+        "titles" : "referenceId",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimReferenceCitation",
+        "titles" : "verbatimReferenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceDoi",
+        "titles" : "datasetDoi",
+        "datatype" : "string"
+      }, {
+        "name" : "datasetId",
+        "titles" : "datasetId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceCitation",
+        "titles" : "datasetCitation",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
